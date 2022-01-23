@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.newsCard{
+  width: 45vw;
+  margin-bottom: 15vw;
+  padding-bottom: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+.readMoreButton{
+  background-color: green;
+  height:3vw;
+  color: white;
+  width: 15vw;
+  border: 2px solid black;
+  font-weight: 800;
+  padding: 1vw;
+  
+}
+.readMoreButton:hover{
+  background-color: rgb(17, 160, 17);
+  color: aliceblue;
+}
+.navbarTitleDark{
+  font-weight: 700;
+  font-style: italic;
+  
+  font-size: xx-large;
+  color: #4d79ff;
+}
+.navbarTitleLight{
+  font-weight: 700;
+  font-style: italic;
+  
+  font-size: xx-large;
+  color: blue;
+}
+.Cards{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 4vw;
+ 
+}
+.topHeadline{
+  margin-top: 5vw;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: 0.5vw underline #89CFF0;
+  color: 	#0096FF ;
+  
+}
+.cardText{
+  padding-bottom: 5vw;
+}
+.navBarLight{
+  background-color: #ADD8E6;
+}
+.searchButton{
+  font-weight: 700;
+  background-color: #F0FFFF;
+}
+.navBarItem{
+  font-weight: 800;
+  color: #0047AB;
+  
+}
+.arrowButtons{
+  margin-bottom: 2vw;
+}
+.prevNextButton{
+padding: 1vw;
+border: 0.1vw solid black;
+font-weight: 700;
+}
+body{
+  background-color: #F0FFFF;
+}
+.topHeadline span{
+  color: #0047AB;
+}
+.updated{
+  text-align: right;
+  font-weight: 700;
+  font-size: small;
+  color: 	#8B8000;
+  position: relative;
+ margin-right: 1vw;
+}
+.start-100 {
+  z-index: 1;
+  left: 80%!important;
+}
+.navbarDiv{
+  position: sticky;
+}
+.modeButton{
+  border-radius: 10vw;
+}
+.bookMarkButton{
+  background-color: tomato;
+  border: 0.2vw solid red;
+  color: white;
+  font-weight: 900;
+  width: 5vw;
+  margin-left: 39.5vw;
+  margin-bottom: 0;
+  font-size: 1vw;
+  
+}
+.navBarDark{
+  background-color: 	#282828;
+}
+
+.lightText{
+  color:	 #89CFF0;
+}
+.darkText{
+  color:#0047AB;
+}
+.darkCard{
+  background-color: #c0ecec;
+}
+
