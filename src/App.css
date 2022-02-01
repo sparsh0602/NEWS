@@ -157,4 +157,19 @@ body{
 .darkCard{
   background-color: #c0ecec;
 }
+@media screen and (max-width: 650px){
+  .Cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 4vw;
+  }
+  .newsCard{
+    width: 85vw;
+    margin-bottom: 15vw;
+    padding-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+  }
+}
 
